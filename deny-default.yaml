@@ -4,6 +4,7 @@ metadata:
   name: default-deny-ingress
   namespace: roboshop
 spec:
+    # denying all incoming requests inlcuding with in roboshop namespace
   podSelector: {}
   policyTypes:
   - Ingress
